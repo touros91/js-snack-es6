@@ -117,19 +117,17 @@ for (let i = 0; i < squadreSerieA.length; i++) {
 
 console.log(squadreSerieA);
 
-const [inter, milan, juventus, atalanta, napoli, roma, lazio, sampdoria, udinese, sassuolo, cagliari, fiorentina, torino, genoa, bologna, verona, empoli, venezia, spezia, salernitana] = squadreSerieA;
-
-const squadre = [inter, milan, juventus, atalanta, napoli, roma, lazio, sampdoria, udinese, sassuolo, cagliari, fiorentina, torino, genoa, bologna, verona, empoli, venezia, spezia, salernitana];
-
 const statisticheSquadre = [];
 
-for (let i = 0; i < squadre.length; i++) {
+for (let i = 0; i < squadreSerieA.length; i++) {
+    const {nome, falliSubiti} = squadreSerieA[i];
     statisticheSquadre.push(
         {
-        "nome": squadre[i].nome,
-        "falliSubiti": squadre[i].falliSubiti
+            nome,
+            falliSubiti
         }
     );
+    
 }
 
 console.log(statisticheSquadre);
