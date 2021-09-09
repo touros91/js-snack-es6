@@ -25,6 +25,86 @@ const squadreSerieA = [
         "nome": "Atalanta",
         "puntiFatti": 0,
         "falliSubiti": 0
+    },
+    {
+        "nome": "Napoli",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Roma",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Lazio",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Sampdoria",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Udinese",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Sassuolo",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Cagliari",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Fiorentina",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Torino",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Genoa",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Bologna",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Verona",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Empoli",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Venezia",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Spezia",
+        "puntiFatti": 0,
+        "falliSubiti": 0
+    },
+    {
+        "nome": "Salernitana",
+        "puntiFatti": 0,
+        "falliSubiti": 0
     }
 ];
 
@@ -37,9 +117,9 @@ for (let i = 0; i < squadreSerieA.length; i++) {
 
 console.log(squadreSerieA);
 
-const [inter, milan, juventus, atalanta] = squadreSerieA;
+const [inter, milan, juventus, atalanta, napoli, roma, lazio, sampdoria, udinese, sassuolo, cagliari, fiorentina, torino, genoa, bologna, verona, empoli, venezia, spezia, salernitana] = squadreSerieA;
 
-const squadre = [inter, milan, juventus, atalanta];
+const squadre = [inter, milan, juventus, atalanta, napoli, roma, lazio, sampdoria, udinese, sassuolo, cagliari, fiorentina, torino, genoa, bologna, verona, empoli, venezia, spezia, salernitana];
 
 const statisticheSquadre = [];
 
