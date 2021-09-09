@@ -117,17 +117,16 @@ for (let i = 0; i < squadreSerieA.length; i++) {
 
 console.log(squadreSerieA);
 
-const statisticheSquadre = [];
+const falliSubitiSquadre = [];
 
 for (let i = 0; i < squadreSerieA.length; i++) {
     const {nome, falliSubiti} = squadreSerieA[i];
-    statisticheSquadre.push(
+    falliSubitiSquadre.push(
         {
             nome,
             falliSubiti
         }
-    );
-    
+    ); 
 }
 
-console.log(statisticheSquadre);
+console.log(falliSubitiSquadre);
