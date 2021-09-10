@@ -3,7 +3,7 @@
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 // Usiamo i nuovi metodi degli array foreach o filter.
 
-function arraySelection (array, num1, num2){
+function arraySelection(array, num1, num2){
     while (isNaN(num1) || num1 >= num2 || num1 < 0 || num1 >= array.length - 1 || isNaN(num2) || num2 > array.length - 1) {
         return false;
     }
